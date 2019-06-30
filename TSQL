@@ -1,0 +1,37 @@
+
+select @@version
+;
+CREATE FUNCTION dbo.ufn_CubicVolume
+;
+DECLARE @food varchar(20) 
+SET @food='ice cream' 
+SELECT @food
+
+DECLARE @variable int, @variable2 int
+SET @variable=5
+SET @variable2=10 
+SELECT @variable, @variable2
+;
+
+DECLARE @hello varchar(20)
+SET @hello= N'Hallo'
+SELECT @hello
+;
+
+select * from sys.objects ;
+select * from sys.databases ;
+select * from sys.databases ;
+select * from sys.indexes;
+select * from sys.dm_exec_sessions, sys.dm_exec_requests;
+select * from INFORMATION_SCHEMA.TABLES
+
+sp_help
+sp_spaceused 
+
+select object_id from sys.tables
+select DB_ID('AdventureWorks')
+
+select @@ERROR
+select @@SERVERNAME
+select @@SPID
+select @@TRANCOUNT
